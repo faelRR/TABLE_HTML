@@ -3,69 +3,72 @@
     <head>
         <title>Exercício HTML DM104</title>
         <meta charset="utf-8">
+        <link href="css/style.css" rel="stylesheet">
     </head>
     
     <body>
-      <table border="1">
+      <table class="tabela">
 
-          <tr>
-                <td colspan="9" align="center">Campeonato Brasileiro de Futebol</td>
-          </tr>
-          <tr>      
-                <td colspan="9"align="center">Classificação</td>
-          </tr>
-          
-          <tr>
-              <td width="200px"><b>Equipe</b></td>
-              <td width="50px" align="center"><b>PJ</b></td>
-              <td width="50px" align="center"><b>VIT</b></td>
-              <td width="50px" align="center"><b>E</b></td>
-              <td width="50px" align="center"><b>DER</b></td>
-              <td width="50px" align="center"><b>GP</b></td>
-              <td width="50px" align="center"><b>GC</b></td>
-              <td width="50px" align="center"><b>SG</b></td>
-              <td width="50px" align="center"><b>PTS</b></td>
-          </tr>
-
-          <tr>
-              <td> <a href="http://www.cruzeiro.com.br/precapa/index.php"><img src="img/cruzeiro.png"/> Cruzeiro </a> </td>
-              <td align="center">0</td> <td align="center">0</td> 
-              <td align="center">0</td> <td align="center">0</td>               
-              <td align="center">0</td> <td align="center">0</td> 
-              <td align="center">0</td> <td align="center">0</td> 
-          </tr>
+          <thead>
+                <tr>
+                    <th colspan="9" >Campeonato Brasileiro de Futebol</th>
+                </tr>
+                <tr>      
+                    <th colspan="9" >Classificação</th>
+                </tr>
+                <tr>
+                    <th id='equipe'><b>Equipe</b></th>
+                    <th><b>PJ</b></th>
+                    <th><b>VIT</b></th>
+                    <th><b>E</b></th>
+                    <th><b>DER</b></th>
+                    <th><b>GP</b></th>
+                    <th><b>GC</b></th>
+                    <th><b>SG</b></th>
+                    <th><b>PTS</b></th>
+                </tr>
+          </thead>
+          <tbody>         
+             <tr class="linha1">
+                <td> <a href="http://www.cruzeiro.com.br/precapa/index.php"><img src="img/cruzeiro.png"/> Cruzeiro </a> </td>
+                <td align="center">0</td> <td align="center">0</td> 
+                <td align="center">0</td> <td align="center">0</td>               
+                <td align="center">0</td> <td align="center">0</td> 
+                <td align="center">0</td> <td align="center">0</td> 
+             </tr>
                
-        <tr>
-              <td> <a href="http://www.santosfc.com.br/"> <img src="img/santos.png"/> Santos </a> </td>
-              <td align="center">0</td> <td align="center">0</td> 
-              <td align="center">0</td> <td align="center">0</td>               
-              <td align="center">0</td> <td align="center">0</td> 
-              <td align="center">0</td> <td align="center">0</td> 
-          </tr>         
-          
-          <tr>
-              <td> <a href="http://www.gremio.net/"> <img src="img/gremio.png"/> Grêmio </a> </td>
-              <td align="center">0</td> <td align="center">0</td> 
-              <td align="center">0</td> <td align="center">0</td>               
-              <td align="center">0</td> <td align="center">0</td> 
-              <td align="center">0</td> <td align="center">0</td> 
-          </tr>
+             <tr class="linha2">
+                <td> <a href="http://www.santosfc.com.br/"> <img src="img/santos.png"/> Santos </a> </td>
+                <td align="center">0</td> <td align="center">0</td> 
+                <td align="center">0</td> <td align="center">0</td>               
+                <td align="center">0</td> <td align="center">0</td> 
+                <td align="center">0</td> <td align="center">0</td> 
+             </tr>         
+                
+             <tr class="linha1">
+                <td> <a href="http://www.gremio.net/"> <img src="img/gremio.png"/> Grêmio </a> </td>
+                <td align="center">0</td> <td align="center">0</td> 
+                <td align="center">0</td> <td align="center">0</td>               
+                <td align="center">0</td> <td align="center">0</td> 
+                <td align="center">0</td> <td align="center">0</td> 
+             </tr>
 
-          <tr>
-              <td> <a href="http://www.atleticoparanaense.com/inicial"> <img src="img/atleticopr.png"/> Atlético-PR </a> </td>
-              <td align="center">0</td> <td align="center">0</td> 
-              <td align="center">0</td> <td align="center">0</td>               
-              <td align="center">0</td> <td align="center">0</td> 
-              <td align="center">0</td> <td align="center">0</td> 
-          </tr>
-         <tr>
-              <td> <a href="http://www.fluminense.com.br/site/"> <img src="img/fluminense.png"/> Fluminense </a> </td>
-              <td align="center">0</td> <td align="center">0</td> 
-              <td align="center">0</td> <td align="center">0</td>               
-              <td align="center">0</td> <td align="center">0</td> 
-              <td align="center">0</td> <td align="center">0</td> 
-          </tr>
-        
+             <tr class="linha2">
+                <td> <a href="http://www.atleticoparanaense.com/inicial"> <img src="img/atleticopr.png"/> Atlético-PR </a> </td>
+                <td align="center">0</td> <td align="center">0</td> 
+                <td align="center">0</td> <td align="center">0</td>               
+                <td align="center">0</td> <td align="center">0</td> 
+                <td align="center">0</td> <td align="center">0</td> 
+             </tr>
+             <tr class="linha1">
+                <td> <a href="http://www.fluminense.com.br/site/"> <img src="img/fluminense.png"/> Fluminense </a> </td>
+                <td align="center">0</td> <td align="center">0</td> 
+                <td align="center">0</td> <td align="center">0</td>               
+                <td align="center">0</td> <td align="center">0</td> 
+                <td align="center">0</td> <td align="center">0</td> 
+             </tr>
+        </tbody>
+
       </tabel>
     </body>
 
