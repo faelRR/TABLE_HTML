@@ -45,14 +45,14 @@ table {
     vertical-align: bottom;    
 }
 
-span{
- margin-bottom: 10px;
-}
-
 .tabela th {
      width: 50px ;
      text-align: center;
      padding: 5px;
+}
+
+.tabela td{
+	vertical-align: middle;
 }
 
 .linha2 {
@@ -70,3 +70,4 @@ span{
 img{
     margin: 5px;
 }
+
